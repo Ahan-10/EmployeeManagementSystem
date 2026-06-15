@@ -1,19 +1,16 @@
 # Employee Management System
 
-A web-based Employee Management System developed using Java Servlets, JSP, MySQL, JDBC, and Apache Tomcat.
+A web-based Employee Management System developed using Java, JSP, Servlets, MySQL, and Apache Tomcat.
 
 ## Features
 
-- Admin Login
-- Employee Login
-- Add Employee
-- Update Employee
-- Delete Employee
+- Admin Login Authentication
+- Employee Management (CRUD)
 - Employee Profile Management
 - Payslip Generation
-- Session Management
-- Email Notifications
-- Role-Based Access Control
+- Salary Management
+- MySQL Database Integration
+- Responsive Dark-Themed UI
 
 ## Technologies Used
 
@@ -29,45 +26,49 @@ A web-based Employee Management System developed using Java Servlets, JSP, MySQL
 
 ## Project Structure
 
-src/main/java
-├── dao
-├── model
-├── servlet
-└── util
+src/
+├── dao/
+├── model/
+├── servlet/
+├── util/
 
-src/main/webapp
+src/main/webapp/
 ├── login.jsp
-├── admin-dashboard.jsp
-├── add-employee.jsp
-├── edit-employee.jsp
-├── employee-profile.jsp
-└── payslip.jsp
+├── dashboard.jsp
+├── addEmployee.jsp
+├── updateEmployee.jsp
+├── payslip.jsp
 
-## How to Run
+## Database
 
-1. Install Java JDK 21+
-2. Install Apache Tomcat 9
-3. Install MySQL
-4. Create the database and tables
-5. Import the project into Eclipse
-6. Deploy on Tomcat
-7. Open:
+Database: employee_management
 
-http://localhost:8080/EmployeeManagementSystem/login
+Tables:
+- users
+- employees
 
 ## Screenshots
 
 ### Login Page
-![Login Page](screenshots/Login%20Page.png)
+![Login](screenshots/Login Page.png)
 
 ### Admin Dashboard
-![Admin Dashboard](screenshots/Admin%20Dashboard.png)
+![Dashboard](screenshots/Admin Dashboard.png)
 
 ### Employee Profile
-![Employee Profile](screenshots/Employee%20Profile.png)
+![Profile](screenshots/Employee Profile.png)
 
 ### Payslip Generation
-![Payslip Generation](screenshots/Payslip%20Generation.png)
+![Payslip](screenshots/Payslip Generation.png)
+
+## Deployment
+
+1. Export project as WAR file
+2. Copy WAR file to Tomcat webapps folder
+3. Start Apache Tomcat
+4. Open:
+
+http://localhost:8080/EmployeeManagementSystem/login
 
 ## Author
 
