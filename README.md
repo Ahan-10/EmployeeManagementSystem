@@ -55,6 +55,20 @@ src/main/webapp
 
 http://localhost:8080/EmployeeManagementSystem/login
 
+## Screenshots
+
+### Login Page
+![Login Page](screenshots/Login%20Page.png)
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/Admin%20Dashboard.png)
+
+### Employee Profile
+![Employee Profile](screenshots/Employee%20Profile.png)
+
+### Payslip Generation
+![Payslip Generation](screenshots/Payslip%20Generation.png)
+
 ## Author
 
 Ahan Chanda
