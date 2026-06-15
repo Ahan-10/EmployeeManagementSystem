@@ -58,6 +58,9 @@ Tables:
 ### Employee Profile
 ![Employee Profile](screenshots/Employee%20Profile.png)
 
+### Edit Employee
+![Edit Employee](screenshots/Edit%20Employee.png)
+
 ### Payslip Generation
 ![Payslip Generation](screenshots/Payslip%20Generation.png)
 
