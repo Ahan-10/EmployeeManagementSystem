@@ -50,16 +50,16 @@ Tables:
 ## Screenshots
 
 ### Login Page
-![Login](screenshots/Login Page.png)
+![Login Page](screenshots/Login%20Page.png)
 
 ### Admin Dashboard
-![Dashboard](screenshots/Admin Dashboard.png)
+![Admin Dashboard](screenshots/Admin%20Dashboard.png)
 
 ### Employee Profile
-![Profile](screenshots/Employee Profile.png)
+![Employee Profile](screenshots/Employee%20Profile.png)
 
 ### Payslip Generation
-![Payslip](screenshots/Payslip Generation.png)
+![Payslip Generation](screenshots/Payslip%20Generation.png)
 
 ## Deployment
 
